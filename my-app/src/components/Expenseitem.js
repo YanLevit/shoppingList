@@ -1,15 +1,13 @@
+import './Expenseitem.css';
 
-import './Expenseitem.css'
-
-function ExpenseItem(props){
-
-    return(
-        <div className ='expense-item'>
-            <div className='expense-item_description'>{props.title}</div>
-            <div className= 'expense-item_price'>{props.amount}</div>
-            <img className='expense-item_image' src={props.url} alt="" />
-        </div>     
-    );
+function ExpenseItem(props) {
+  return (
+    <div className="expense-item" onClick={props.onClick}>
+      <div className="expense-item_description"> Title : {props.title}</div>
+      <div className="expense-item_price"> Amount : {props.amount} </div>
+      <img className="expense-item_image" src={props.url} alt="" />
+    </div>
+  );
 }
 
 export default ExpenseItem;
