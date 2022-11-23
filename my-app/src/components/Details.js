@@ -25,6 +25,9 @@ function Details({ title, setSelected }) {
           <div className="Card__amount">
             <b> Amount : </b> {selected?.amount}
           </div>
+          <div className="Card_price">
+            <b>Price : </b> {selected?.price}$/kg
+          </div>
         </div>
       </div>
     </div>

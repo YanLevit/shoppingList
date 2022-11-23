@@ -5,6 +5,7 @@ export const expense = [
     url1: 'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTezuXWrTsqmBWgKsQSh_Jay-ZHH3mIaUF2cIsQp4Nku3koNlE9A4FpzHKnVh46a4Jfakde2VIgCEWokmF57DE ',
     url2: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg',
     description: 'A very fresh tomato',
+    price: 1,
   },
   {
     title: 'Corn',
@@ -12,6 +13,7 @@ export const expense = [
     url1: 'http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQN6AjT6gYd94507prZZvV6D6_MCUDTGTBImWBxVyIMyCiyP75y4YqIBwlDEEbrfMLRwWcipEJG_x_TvvpCrhs ',
     url2: 'https://www.collinsdictionary.com/images/full/corn_117811741.jpg',
     description: 'A very fresh corn',
+    price: 1.2,
   },
   {
     title: 'Eggplant',
@@ -19,6 +21,7 @@ export const expense = [
     url1: 'https://www.hydrogrow.co.il/wp-content/uploads/2018/02/A51O10-an5ooOO10-E3OU.jpg',
     url2: 'https://cdn-prod.medicalnewstoday.com/content/images/articles/279/279359/two-eggplants-on-a-wooden-table.jpg',
     description: 'A very fresh eggplant',
+    price: 1.4,
   },
   {
     title: 'Pepper',
@@ -26,6 +29,7 @@ export const expense = [
     url1: 'https://www.haprivehashefa.co.il/wp-content/uploads/2019/03/f05-600x400.jpg ',
     url2: 'https://thehealthybutcher.com/images/P.cache.x1/redbellpepper-1.jpg',
     description: 'A very fresh pepper',
+    price: 1.6,
   },
   {
     title: 'Cucumber',
@@ -33,6 +37,7 @@ export const expense = [
     url1: 'http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcR-R2XZAllhstELeu30V6_Sr5AGDLg_hZosMu4bR23_Whkz5veYWYypmybGOa3ficaSAkC1X61F1NCFLwRjyj0 ',
     url2: 'https://www.highmowingseeds.com/media/catalog/product/cache/6cbdb003cf4aae33b9be8e6a6cf3d7ad/2/4/2425-1.jpg',
     description: 'A very fresh cucumber',
+    price: 1.7,
   },
   {
     title: 'Carrot',
@@ -40,6 +45,7 @@ export const expense = [
     url1: 'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTYKD4RKXkqfyJgQyJ3BeEAZtpWlNIIgqUPp1lbNoLidDeRH32ByFnGU18lxSBPuQBrGBTGAk2cdYFGP3CenHE ',
     url2: 'https://www.healthshots.com/wp-content/uploads/2020/11/benefits-of-carrots.jpg',
     description: 'A very fresh carrot',
+    price: 1.8,
   },
   {
     title: 'Garlic',
@@ -47,6 +53,7 @@ export const expense = [
     url1: 'https://tevabari.co.il/images/shutterstock_552242461.jpg ',
     url2: 'https://chopra.brightspotcdn.com/dims4/default/78055c0/2147483647/strip/true/crop/660x371+68+0/resize/1200x675!/quality/90/?url=http%3A%2F%2Fchopra-brightspot.s3.amazonaws.com%2F35%2Ff1%2F39e602ed2bba2359ac95deb5f03a%2Fhealthbenefitsofgarlic.jpg',
     description: 'A very fresh garlic',
+    price: 1.1,
   },
   {
     title: 'Onion',
@@ -54,5 +61,6 @@ export const expense = [
     url1: 'https://machonheker.coi.co.il/up/l/87136_wan5.jpg ',
     url2: 'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/the-health-benefits-of-onions-main-image-700-350-8425535.jpg',
     description: 'A very fresh onion',
+    price: 1.3,
   },
 ];
