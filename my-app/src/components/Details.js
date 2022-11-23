@@ -12,7 +12,7 @@ function Details({ title, setSelected }) {
           Back
         </button>
         <h2 style={{ marginLeft: '20%', width: '60%' }}>Item Details</h2>
-        <img className="Card__image" src={selected?.url2} />
+        <img className="Card__image" src={selected?.url2} alt="" />
         <div className="Card__content">
           <div className="Card__title">
             {' '}

@@ -6,7 +6,13 @@
     margin: 12px;
     border-radius: 12px;
     background-color: #b6b2ac;
+    cursor: pointer;
 }
+
+.expense-item:hover {
+    background-color: #4e4841;
+}
+
 
 .expense-item_description{
     margin-top: 10px;
